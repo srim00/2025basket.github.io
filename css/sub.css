@@ -9,7 +9,7 @@
 .sub.works .sec.sec01 {margin-top: 100px;}
 .sub.works .works_con {display: flex; flex-direction: column;} 
 .sub.works .works_list_wrap {width: 100%; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 2em;}
-.sub.works .works_list_wrap > li {width: calc((100% - 40px) / 4); height: auto; aspect-ratio: 1 / 1; background-color: #eee;}
+.sub.works .works_list_wrap > li {width: calc((100% - 40px) / 4); height: auto; aspect-ratio: 1 / 1; border-radius: 1em; overflow: hidden; background-color: #eee; cursor: pointer;}
 
 
 /* project */
